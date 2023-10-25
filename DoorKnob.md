@@ -1,46 +1,66 @@
 <details>
-<summary>Code Source  – <strong>600.48 {706}</strong></summary>
+<summary>Code Source  – <strong>600 {1259}</strong></summary>
 <!-- have to be followed by an empty line! -->
 
 ```html
-<div class="b"></div>
-<div class="c"></div>
-<div class="a"></div>
+<div class="outercircle"></div>
+<div class="innercircle"></div>
+<div class="smile"></div>
+<div class="leftsmallcircle"></div>
+<div class="rightsmallcircle"></div>
+
 <style>
   body {
-    background-color: #191919;
-    margin: 0;
-    width: 400px;
-    height: 300px;
-    position: relative;
+    background-color: #191919
   }
-  .a {
+  .outercircle {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -60px 0 0 -60px;
-    width: 120px;
-    height: 120px;
-    background: #e08027;
-    border-radius: 50% 50% 10px 10px;
+    left: calc(50% - 80px);
+    top: calc(50% - 80px);
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+    background: #824B20;
   }
-  .b {
+  .innercircle{
     position: absolute;
-    height: 52px;
-    width: 52px;
-    top: 66px;
-    left: 174px;
-    background-color: #f2ad43;
-    border-radius: 50%;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    background: #E08027;
+    border-radius:50%;
   }
-  .c {
+  .smile{
     position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 185px;
-    left: 176px;
-    background-color: #824b20;
-    border-radius: 50%;
+    left: calc(50% - 60px);
+    top: calc(50% - 60px);
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    border: 20px solid #FFF58F;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    rotate: 45deg;
+    # background: radial-gradient(circle at 40px, red, yellow);
+  }
+  .leftsmallcircle{
+    position: absolute;
+    left: 140px;
+    top: 140px;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background: #FFF58F
+  }
+  .rightsmallcircle{
+    position: absolute;
+    left: 240px;
+    top: 140px;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background: #FFF58F
   }
 </style>
 ```
