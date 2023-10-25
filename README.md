@@ -10,7 +10,7 @@ This is the format.
 
 ```html
 your cssbattles code here!
-````
+```
 
 </details>
-```
+````
