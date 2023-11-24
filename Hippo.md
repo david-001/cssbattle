@@ -1,5 +1,5 @@
 <details>
-<summary>Code Source  – <strong>600.03 {1011}</strong></summary>
+<summary>Code Source  – <strong>600 {1843} (100% match)</strong></summary>
 <!-- have to be followed by an empty line! -->
 
 ```html
