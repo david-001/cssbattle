@@ -2,20 +2,30 @@
 <summary>Code Source  – <strong>600 (100% match) {2027}</strong></summary>
 
 ```html
-<div class="face"></div>
-<div class="left_ear"></div>
-<div class="right_ear"></div>
-<div class="left_eye"></div>
-<div class="left_pupil"></div>
-<div class="right_eye"></div>
-<div class="right_pupil"></div>
-<div class="nose"></div>
+<div class="container">
+  <div class="face"></div>
+  <div class="left_ear"></div>
+  <div class="right_ear"></div>
+  <div class="left_eye"></div>
+  <div class="left_pupil"></div>
+  <div class="right_eye"></div>
+  <div class="right_pupil"></div>
+  <div class="nose"></div>
+</div>
 
 <style>
   body {
     margin: 0;
     position: relative;
     background: #ed6a9d;
+    display: grid;
+    place-items: center;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
+    position: relative;
   }
 
   .face {
